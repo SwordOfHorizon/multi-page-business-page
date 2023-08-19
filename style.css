@@ -152,7 +152,7 @@
 .about {
   background-image: url(/pictures/about-bg.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position-y: bottom;
   background-size: cover;
 }
 .about-box {
