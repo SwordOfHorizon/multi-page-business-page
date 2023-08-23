@@ -94,6 +94,8 @@
 }
 .hero-button:hover {
   color: #fca311;
+  font-size: 1.3rem;
+  padding: 14px 30px;
 }
 
 /* Hero */
