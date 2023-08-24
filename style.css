@@ -101,11 +101,10 @@
 /* Hero */
 /* Services */
 
-.services {
-  background-image: url(/pictures/services-bg.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.services-bg {
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
 }
 
 .services-box {
@@ -155,11 +154,10 @@
 /* Services */
 /* About */
 
-.about {
-  background-image: url(/pictures/about-bg.svg);
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-size: cover;
+.about-bg {
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
 }
 .about-box {
   margin: 0 auto;
